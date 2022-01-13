@@ -18,13 +18,13 @@ return [
         'default' => [
             'name' => 'English',
             'locale' => 'en_US',
-            'url' => '/',
+            'url'    => env('APP_URL'),
         ],
 
         'italian' => [
             'name' => 'italian',
-            'locale' => 'en_US',
-            'url' => '/italian/',
+            'locale' => 'it',
+            'url' => env('APP_URL').'it/'
         ],
 
     ],
